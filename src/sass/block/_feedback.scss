@@ -1,0 +1,30 @@
+.feedback {
+    &-client {
+        display: flex;
+        padding-top: 60px;
+        img {
+            width: 169px;
+            height: 169px;
+        }
+        &__descr {
+            display: flex;
+            padding-left: 60px;
+            flex-direction: column;
+        }
+        &__subscr {
+            padding-top: 10px;
+            font-size: 16px;
+            color: #0D0D0D;
+            font-weight: 300;
+        }
+        &__race {
+            color: #646464;
+            font-weight: 500;
+            font-size: 14px;
+        }
+        p {
+            margin-top: 10px;
+            margin-bottom: 0;
+        }
+    }
+}
