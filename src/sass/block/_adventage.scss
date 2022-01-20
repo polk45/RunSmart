@@ -28,10 +28,16 @@
             width: 70px;
             height: 70px;
             margin-bottom: 35px;
+            }
         }
         a {
             color: $main-color;
             text-transform: uppercase;
         }
+        .animated {
+            animation: heartbeat 1.4s ease infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
     }
-}
